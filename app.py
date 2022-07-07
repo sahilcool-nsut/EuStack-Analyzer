@@ -48,7 +48,7 @@ def upload_file():
         else:
             TOP_GIVEN = True
             f = request.files['topFile']
-            f.save(os.path.join(path, "data/topFile_"+TIMESTAMP+".txt"))
+            f.save(os.path.join(path, "topFile_"+TIMESTAMP+".txt"))
         
 
         

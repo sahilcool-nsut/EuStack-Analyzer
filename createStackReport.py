@@ -789,8 +789,8 @@ def setGlobals(TIMESTAMP,topFileGiven):
     OUTPUT_FILE_PATH=os.path.join(path,"templates/StackTraceReport_"+TIMESTAMP+".html")
 
     # Data files uploaded by user
-    TOP_COMMAND_FILE=os.path.join(path, "data/topFile_"+TIMESTAMP+".txt")
-    STACK_TRACE_FILE=os.path.join(path, "data/stackFile_"+TIMESTAMP+".txt")
+    TOP_COMMAND_FILE=os.path.join(path, "topFile_"+TIMESTAMP+".txt")
+    STACK_TRACE_FILE=os.path.join(path, "stackFile_"+TIMESTAMP+".txt")
 
     # Graphs dynamically created by script
     FLAME_GRAPH_PATH=os.path.join(path, "static/graphs/flameGraph_"+TIMESTAMP+".pdf")
