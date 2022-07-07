@@ -793,9 +793,9 @@ def setGlobals(TIMESTAMP,topFileGiven):
     STACK_TRACE_FILE=os.path.join(path, "stackFile_"+TIMESTAMP+".txt")
 
     # Graphs dynamically created by script
-    FLAME_GRAPH_PATH=os.path.join(path, "static/graphs/flameGraph_"+TIMESTAMP+".pdf")
-    STATE_GRAPH_PATH=os.path.join(path, "static/graphs/statePie_"+TIMESTAMP+".png")
-    IDENTICAL_STACK_GRAPH_PATH=os.path.join(path, "static/graphs/identicalStackTraceGraph_"+TIMESTAMP+".png")
+    FLAME_GRAPH_PATH=os.path.join(path, "flameGraph_"+TIMESTAMP+".pdf")
+    STATE_GRAPH_PATH=os.path.join(path, "statePie_"+TIMESTAMP+".png")
+    IDENTICAL_STACK_GRAPH_PATH=os.path.join(path, "identicalStackTraceGraph_"+TIMESTAMP+".png")
 
     # Graphs directory to be used in HTML code generated
     FLAME_GRAPH_HTML_PATH="{{ url_for('static', filename='graphs/flameGraph_"+TIMESTAMP+".pdf') }}"
