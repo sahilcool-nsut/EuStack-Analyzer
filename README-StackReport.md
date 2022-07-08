@@ -60,3 +60,6 @@ Current Directory Structure:
     
     
 This repository is live hosted on https://eustack-analyzer.herokuapp.com/
+
+> For hosting, the only special requirement was to add the graphviz buildpack in heroku for it to work properly
+> Further, change in form action (in home.html) to the live URL was also required
